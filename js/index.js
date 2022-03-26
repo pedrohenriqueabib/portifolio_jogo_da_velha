@@ -151,7 +151,6 @@ botao.addEventListener('click', ()=>{
     location.reload();
 })
 
-
 function derrotaTotal(){    
     if( vencedor.innerHTML == '?' && contador == 9){
         perda.style.display = 'block';
