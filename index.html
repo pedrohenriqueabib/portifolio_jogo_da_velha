@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo de Velha</h1>        
+    </header>
+    <div class="container">
+        <div class="casa">
+            <p name='c' class='c1'  id="c1"></p>
+            <p name='c' class='c2'  id="c2"></p>
+            <p name='c' class='c3'  id="c3"></p>
+        </div>
+        <div class="casa">
+            <p name='c' class='c4' id="c4"></p>
+            <p name='c' class='c5'  id="c5"></p>
+            <p name='c' class='c6'  id="c6"></p>
+        </div>
+        <div class="casa">
+            <p name='c' class='c7'  id="c7"></p>
+            <p name='c' class='c8'  id="c8"></p>
+            <p name='c' class='c9'  id="c9"></p>
+        </div>
+
+        <div class="dados">
+            <p>Jogador: <span id="jogador"></span></p>
+            <p>Vencedor: <span id="vencedor">?</span></p>
+            <button type="button" id="botao">Reiniciar</button>
+        </div>
+    </div>
+    <div class="derrota">
+        <p> Sem vencedores! :-(</p>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

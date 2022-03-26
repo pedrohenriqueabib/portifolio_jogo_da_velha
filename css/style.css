@@ -1,0 +1,57 @@
+header{
+    text-align: center;
+}
+
+.casa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.casa p{
+    width: 5vw;
+    height: 5vw;
+    margin: 1%;
+    padding: 1%;
+    font-size: 5vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9{
+    background-color: rgb(129, 183, 230);
+}
+
+.dados{
+    font-size: 2vw;
+    width: 18%;
+    margin: 0 auto;
+}
+
+.dados p{
+    margin: auto 3vw;
+}
+
+.dados button{
+    font-size: 1em;
+    margin: 0 4vw;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+}
+
+.green{
+    background-color: green;
+}
+
+.derrota{
+    border: 1px solid;
+    width: 50vw;
+    position: fixed;
+    left: 25%;
+    top: 20%;
+    text-align: center;
+    font-size: 5vw;
+    background-color: white;
+    display: none;
+}
